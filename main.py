@@ -1,4 +1,4 @@
-/*----------IMPORTING THE MODULE---------------*/
+// IMPORTING THE MODULE //
 import turtle
 
 BODY_COLOR = 'red'
@@ -9,7 +9,7 @@ GLASS_SHADOW = ''
 s = turtle.getscreen()
 t= turtle.Turtle()
 
-/*-----------------------BODY FUNCTION------------------------*/
+// BODY FUNCTION //
 def body():
     """Draws the body """
     t.pensize(20)
@@ -55,7 +55,7 @@ def body():
     
     t.end_fill()
     
-/*------------------------GLASS FUNCTION--------------------------*/
+// GLASS FUNCTION //
 def glass():
     t.up()
     
@@ -88,7 +88,7 @@ def glass():
     
     t.end_fill()
     
-/*-------------------BAG FUNCTION-------------------*/
+// BAG FUNCTION //
 def backpack():
     t.up()
     t.right(60)
